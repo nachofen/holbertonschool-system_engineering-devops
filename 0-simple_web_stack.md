@@ -22,10 +22,10 @@ the web server acts as the intermediary between clients and the web application 
 
 ## Issues With This Infrastructure
 
-+SPOF(single point of failure) <br/>  A Single Point of Failure refers to a component or system that, if it fails, can cause the entire infrastructure or service to become unavailable.
++ SPOF(single point of failure) <br/>  A Single Point of Failure refers to a component or system that, if it fails, can cause the entire infrastructure or service to become unavailable.
 
 In this case, the infrastructure consists of a single server hosting the website, which means that if the server fails or experiences any issues, the website will be inaccessible. This creates a SPOF because there is no redundancy or backup system in place to ensure continuous availability in case of server failure.
 
-+Downtime when maintenance needed<br/>Another issue with this infrastructure is downtime when maintenance is needed. Whenever maintenance activities, such as deploying new code or performing updates, are required on the web server, it often requires taking the server offline or restarting it. This downtime can result in the website being temporarily unavailable to users.
++ Downtime when maintenance needed<br/>Another issue with this infrastructure is downtime when maintenance is needed. Whenever maintenance activities, such as deploying new code or performing updates, are required on the web server, it often requires taking the server offline or restarting it. This downtime can result in the website being temporarily unavailable to users.
 
 + cant scale if too much incoming traffic<br/> Other issue with this infrastructure is the inability to scale effectively when there is a significant increase in incoming traffic. the single server may struggle to handle the increased load, leading to performance issues and potentially causing the website to become slow or even unresponsive.
